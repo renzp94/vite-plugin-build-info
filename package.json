@@ -1,6 +1,6 @@
 {
   "name": "@renzp/vite-plugin-build-info",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "renzp <1074720760.qq.com>",
   "repository": {
     "type": "git",
@@ -20,9 +20,15 @@
     "url": "https://github.com/renzp94/vite-plugin-build-info/issues"
   },
   "description": "一款将打包信息打印在控制台的vite插件",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "homepage": "https://github.com/renzp94/vite-plugin-build-info#readme",
-  "keywords": ["vite", "build-info", "plugin"],
+  "keywords": [
+    "vite",
+    "build-info",
+    "plugin"
+  ],
   "license": "MIT",
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
