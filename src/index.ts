@@ -96,11 +96,14 @@ const getBuildInfo = async (root: string, options?: Options) => {
 
 const plugin = (options?: Options) => {
   const root = process.cwd()
+  let htmlHeadCloseTag = ''
 
   return {
     name: pluginName,
+    async buildStart() {
+      htmlHeadCloseTag = await getBuildInfo(root, options)
+    },
     async transformIndexHtml(html) {
-      const htmlHeadCloseTag = await getBuildInfo(root, options)
       return html.replace('</head>', htmlHeadCloseTag)
     },
   }
