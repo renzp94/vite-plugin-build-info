@@ -10,11 +10,9 @@
   "devDependencies": {
     "@biomejs/biome": "^1.7.3",
     "@types/bun": "^1.1.2",
-    "@types/node": "^17.0.16",
     "standard-version": "^9.5.0",
     "tsup": "^8.0.2",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.11"
+    "typescript": "^5.4.5"
   },
   "bugs": {
     "url": "https://github.com/renzp94/vite-plugin-build-info/issues"
