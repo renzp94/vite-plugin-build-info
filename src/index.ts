@@ -9,7 +9,6 @@ export interface BuildInfo {
 }
 
 export interface Options {
-  html?: string
   showName?: boolean
   showVersion?: boolean
   nameBlockColor?: string
