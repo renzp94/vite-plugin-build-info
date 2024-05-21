@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/renzp94/vite-plugin-build-info/compare/v1.1.0...v1.1.1) (2024-05-21)
+
+
+### 其他
+
+* 更新README ([5f9c256](https://github.com/renzp94/vite-plugin-build-info/commit/5f9c2561c6f7301beb3fb3ca8630fd18b08ad8a9))
+
 ## [1.1.0](https://github.com/renzp94/vite-plugin-build-info/compare/v1.0.2...v1.1.0) (2024-05-21)
 
 
